@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", serif;
 }
 
+/* HEADER */
+
 .header {
     height:250px;
     display: flex;
@@ -43,6 +45,8 @@ body {
     background-color: brown;
 }
 
+/* END OF HEADER */
+
 .content {
     display: flex;
     flex: 1;
@@ -50,11 +54,14 @@ body {
     background-color: lightblue;
 }
 
+/* FIRST DIVISION */
+
 .first-content {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0px 200px;
+    padding: 100px 200px;
+    padding-top: 50px;
     background-color: white;
 }
 
@@ -67,13 +74,13 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 16px;
+    padding-bottom: 50px;
 }
 
 .first-bottom {
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 50px;
     flex: 2;
     flex-wrap: wrap;
     flex-shrink: 0;
@@ -92,36 +99,110 @@ img {
 
 .text {
     color: #1F2937;
+    text-align: center;
 }
+
+/* END OF FIRST DIVISION */
+/* SECOND DIVISION */
 
 .second-content {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
     padding: 100px 200px;
     background-color: #e5e7eb;
 }
 
 .second-top {
-    display: flex;
-    flex: 1;
+    width: 790px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    word-spacing: 3px;
 }
 
 .second-bottom {
     display: flex;
     flex: 1;
+    width: 740px;
+    justify-content: end;
+    font-weight: 500;
 }
+
+/* END OF SECOND DIVISION */
+
+/* THIRD DIVISION */
 
 .third-content {
     display: flex;
     flex: 1;
-    padding: 0px 150px;
-    background-color: chocolate;
+    padding: 100px 300px;
+    background-color: white;
+    justify-content: center;
 }
 
+.third-container {
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    border: 0px solid #3882f6;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 90px;
+    max-width: fit-content;
+    gap: 150px;
+}
+
+.third-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 600px;
+}
+
+.third-left-top {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.third-left-bot {
+    font-size: 18px;
+}
+
+.third-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    max-width: 120px;
+    max-height: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button {
+    background: none;
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* END OF THIRD DIVISION */
+
+/* FOOTER */
 .footer {
     height:72px;
     display: flex;
     margin-top: auto;
-    background-color: lightcoral;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
+
+/* END OF FOOTER */
