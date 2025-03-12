@@ -55,7 +55,7 @@ body {
     flex-direction: column;
     flex: 1;
     padding: 0px 200px;
-    background-color: coral;
+    background-color: white;
 }
 
 .first-top {
@@ -64,20 +64,42 @@ body {
     align-items: center;
     flex: 1;
     flex-shrink: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 16px;
 }
 
 .first-bottom {
     display: flex;
+    justify-content: center;
+    gap: 36px;
     flex: 2;
+    flex-wrap: wrap;
     flex-shrink: 0;
+}
+
+.card {
+    max-width: 150px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 21px;
+    border: 2px solid #3882f6;
+}
+
+.text {
+    color: #1F2937;
 }
 
 .second-content {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0px 200px;
-    background-color: chartreuse;
+    padding: 100px 200px;
+    background-color: #e5e7eb;
 }
 
 .second-top {
