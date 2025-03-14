@@ -9,12 +9,13 @@ body {
 /* HEADER */
 
 .header {
-    height:250px;
+    height:400px;
     display: flex;
     flex-direction: column;
     padding: 0px 150px;
-    gap: 16px;
-    background-color: lightgreen;
+    padding-bottom: 100px;
+    gap: 70px;
+    background-color: #1F2937;
 }
 
 .top-header {
@@ -22,27 +23,81 @@ body {
     flex: 1 0 auto;
     flex-shrink: 0;
     justify-content: space-between;
-    padding-top: 8px;
-    background-color: bisque;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+}
+
+ul {
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
 .sub-header {
     display: flex;
-    flex: 3 0 auto;
-    background-color: cadetblue;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 300px;
 }
 
 .left-sub {
     display: flex;
     flex: 1;
-    background-color: crimson;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sub-title {
+    display: flex;
+    flex: 1;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 500px;
+}
+
+.sub-paragraph {
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+
+.sub-button {
+    display: flex;
+}
+
+.subbutton {
+    background: #3882f6;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
 }
 
 .right-sub {
     display: flex;
     flex: 1;
-    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
 }
 
 /* END OF HEADER */
@@ -90,7 +145,7 @@ body {
     max-width: 150px;
 }
 
-img {
+.card-img {
     height: 150px;
     width: 150px;
     border-radius: 21px;
@@ -183,7 +238,7 @@ img {
     font-weight: bold;
 }
 
-button {
+.signup-button {
     background: none;
     padding: 12px 25px;
     border: none;
